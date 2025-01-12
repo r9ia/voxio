@@ -1,0 +1,40 @@
+	<div class="row">
+					<div class="column">
+						<h3>Subtitles Feature</h3>
+				<p>The servo motor on the glasses activates when the mic detects noise over ____. 
+					The OLED screen swings down into the user’s vision and displays the speech in text form. 
+				</p>
+
+					</div>
+					<div class="column">
+
+					</div>
+				  </div>
+
+<!-- <div class = "side">
+				<img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-1604x2048-hes81xbe.png" width="24" height="24"/>
+				<h3>Raspberry Pi</h3>
+			</div>
+			<p> The raspberry pi module is designed to be stored in the user's pocket. It is the centre of Voxio; from converting speech to 
+				text, sending text to the OLED screen and turning ASL into text.
+			</p> -->
+
+			<!-- <div class = "side">
+				<img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-1604x2048-hes81xbe.png" width="24" height="24"/>
+				<h3>Speaker</h3>
+			</div>
+
+			<div class = "side">
+				<img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-1604x2048-hes81xbe.png" width="24" height="24"/>
+				<h3>OLED Screen + Servo Motor</h3>
+			</div>
+
+			<div class = "side">
+				<img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-1604x2048-hes81xbe.png" width="24" height="24"/>
+				<h3>Microphone</h3>
+			</div>
+
+			<div class = "side">
+				<img src="https://static-00.iconduck.com/assets.00/raspberry-pi-icon-1604x2048-hes81xbe.png" width="24" height="24"/>
+				<h3>Camera</h3>
+			</div> -->
