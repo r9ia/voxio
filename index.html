@@ -7,9 +7,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		
 	</head>
 	<body>
 		
+		<div id="vanta-canvas"></div>
 		<!-- TODO: navbar maybe?
 		<nav>
 			<span>voxio</span>
@@ -83,7 +85,7 @@
 			<p>Github Repository for Raspberry Pi</p>
 			<p>Cad Design of Glasses</p>
 			<img src="assets\images\ezgif-3-2c95b1fcee-ezgif.com-video-to-gif-converter.gif" 
-			alt ="A gif of the VOXIO glasses rotating in AutoCAD">
+			alt ="A gif of the VOXIO glasses rotating in AutoCAD" id = "gifAnimation">
 		</section>
 
 		<script type="module">
@@ -95,7 +97,26 @@
 		<!-- Scripts -->
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+			<script>
+			VANTA.GLOBE({
+			el: "#vanta-canvas",
+			mouseControls: true,
+			touchControls: true,
+			gyroControls: false,
+			minHeight: 200.00,
+			minWidth: 200.00,
+			scale: 1.00,
+			scaleMobile: 1.00,
+			color: 0x3f4aff,
+			backgroundColor: 0x1e0a1e
+			})
+			</script>
 
 		
 	</body>
+
 </html>
+

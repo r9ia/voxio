@@ -74,6 +74,12 @@ body {
 	margin-top: 0;
 	margin-bottom: 50px;
 	font-size: 56px;
+	transition: 1s;
+
+}
+
+.desc h2:hover{
+	font-size: 78px;
 }
 
 .desc p {
@@ -88,6 +94,10 @@ body {
 .how h2 {
 	text-align: center;
 	font-size: 50px;
+	transition: 1s;
+}
+.how h2:hover{
+	font-size: 60px;
 }
 
 .feature {
@@ -132,3 +142,15 @@ body {
 }
 
 /* CTA */
+
+#gifAnimation{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#vanta-canvas{
+	width:100%;
+	height:100vh;
+	z-index: -1;
+	position: fixed;
+}
