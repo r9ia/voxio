@@ -16,10 +16,17 @@
 		<nav>
 			<span>voxio</span>
 		</nav> -->
+		<div class= "navbar">
+			<a href="#mission"><button>Mission</button></a>
+			<a href="#technology"><button>Technology</button></a>
+			<a href="#next-steps"><button>Next Steps</button></a>
+			<a href="#source"><button>Open Source Project</button></a>
+			<a href="#team"><button>Meet the Team</button></a>
+		</div>
 
 		<section class="header">
-			<h1>VOXIO</h1>
-			<img src="./assets/images/sl.png" width="700" style="opacity: 0.7;"/>
+			<h1>VOX<span style="margin-left: 10px;">IO</span></h1>
+			<img src="./assets/images/asl.png" width="700" style="opacity: 0.7; transform: translateX(-35px);"/>
 		</section>
 		<div class="latin">
 			<h2 align="left" style="font-weight:100;">vox: 'voice' in latin</h2>
@@ -27,7 +34,7 @@
 		</div>
 		
 		
-		<section class="desc">
+		<section class="desc" id="mission">
 			<h3>Communication gets easier...</h3>
 			<h2>For everyone.</h2>
 
@@ -38,7 +45,7 @@
 			</p>
 		</section>
 
-		<section class="how">
+		<section class="how" id="technology">
 			<h2>How it Works</h2>
 			<div class="feature">
 				<div class="row">
@@ -68,7 +75,7 @@
 		</div>
 		</section>
 
-		<section class="desc">
+		<section class="desc" id="next-steps">
 			<h2>Next Steps</h2>
 			<p>For the future of Voxio, we want to implement a subtitle feature. This would consist of a microphone built into Voxio that detects
 				speech, transfer it to text and display the text onto an OLED screen that would rotate down into the glasses view.
@@ -80,7 +87,7 @@
 		  </p>
 		</section>
 
-		<section class="desc">
+		<section class="desc" id="source">
 			<h2>Source Code for Voxio</h2>
 			<p>Github Repository for Raspberry Pi Module</p>
 			<a href="https://github.com/IonicArgon/asl-opencv" target="_blank"> <img src="assets\images\github logo.png" 
@@ -89,7 +96,36 @@
 			<img src="assets\images\ezgif-3-2c95b1fcee-ezgif.com-video-to-gif-converter.gif" 
 			alt ="A gif of the VOXIO glasses rotating in AutoCAD" id = "gifAnimation">
 		</section>
-
+		
+		<section class="team" id="team">
+			<h2>Meet The Team</h2>
+			<div class="team-members">
+				<div class="member"> 
+					<h3>Marco</h3>
+					<img src="assets/team photos/marco.png" style="width:350px;">
+					<p>Marco is a passionate IBio, with mechatronics minor student at University of McMaster. He is skilled in neural networks, computer engineering, and being a great teamate!
+				</div>
+				<div class="member"> 
+					<h3>Georgia</h3>
+					<img src="assets/team photos/georgia.png" style="width:350px;">
+					<p>Georgia is a rising senior at Martingrove Collegiate Institute. She is passionate in music, athletics, and engineeering.</p>
+				</div>
+				<div class="member"> 
+					<h3>Jad</h3>
+					<img src="assets/team photos/jad.png" style="width:350px;">
+					<p>Jad is an 11th grade student at Vincent Massey Secondary School. He is interested mechanical engineering, robotics, and playing guitar in his freetime.</p>
+				</div>
+				<div class="member"> 
+					<h3>Li Feng</h3>
+					<img src="assets/team photos/lifeng.png" style="width:350px;">
+					<p>Li Feng is a 12th grade student at Laurier Heights Secondary School. He is highly interested in computer science, specifically web development, and even codes in his freetime!</p>
+				</div>
+			</div>
+			
+		</section>
+		<section class="footer">
+			
+		</section>
 		<script type="module">
 			import { animate, scroll } from "https://cdn.jsdelivr.net/npm/motion@latest/+esm"
 
