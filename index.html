@@ -70,14 +70,8 @@
 
 		<section class="desc">
 			<h2>Next Steps</h2>
-			<p>For the future of Voxio, we want to implement a subtitle feature. This would consist of a microphone built into Voxio that detects
-				 speech, transfer it to text and display the text onto an OLED screen that would rotate down into the glasses view.
+			<p>For the future of Voxio, we want to implement a subtitle feature. This would consist of a microphone built in the 
 			</p>
-			<p>Originally, we wanted to implement this feature which is why there is an OLED screen and motor featured on the CAD design. 
-				However, we focused on making something that could improve means of communication with the culturally Deaf. One of the primary 
-				forms of communication for culturally Deaf people in Canada is ASL so we prioritized our computer vision feature to translate ASL
-				 to speech. 
-		   </p>
 		</section>
 
 		<section class="desc">
@@ -97,11 +91,10 @@
 		<!-- Scripts -->
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
 			<script>
-			VANTA.GLOBE({
+			VANTA.WAVES({
 			el: "#vanta-canvas",
 			mouseControls: true,
 			touchControls: true,
@@ -110,8 +103,9 @@
 			minWidth: 200.00,
 			scale: 1.00,
 			scaleMobile: 1.00,
-			color: 0x3f4aff,
-			backgroundColor: 0x1e0a1e
+			color: 0x2020c,
+			shininess: 114.00,
+			zoom: 0.73
 			})
 			</script>
 
