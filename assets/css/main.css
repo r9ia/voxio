@@ -48,17 +48,29 @@ body {
 }
 
 .latin {
-	display: flex;
-	font-size: 30px;
-	letter-spacing: 3px;
+	display: flex;	
 	justify-content: space-between;
-	margin-left: 16px;
-	margin-right: 16px;
+	
+}
+
+.latin h2{
+	transition: 1s;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
+.latin h2:hover{
+	font-size: 45px;
+	letter-spacing: 5px;
+	margin-left: 65x;
+	margin-right: 65px;
 }
 
 .desc {
 	padding: 60px;
-	background-color: #f2f2f2;
+	background-color: #dddada;
+	opacity:90%;
 	color: #121212;
 }
 
@@ -97,7 +109,8 @@ body {
 	transition: 1s;
 }
 .how h2:hover{
-	font-size: 60px;
+	font-size: 55px;
+	letter-spacing: 8px;
 }
 
 .feature {
@@ -153,4 +166,5 @@ body {
 	height:100vh;
 	z-index: -1;
 	position: fixed;
+	
 }
